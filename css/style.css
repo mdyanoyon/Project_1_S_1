@@ -93,7 +93,7 @@
     animation: zoom-out 3s linear;
     animation-iteration-count:infinite;
     animation-direction: alternate; 
-    animation:none;
+    animation: none;
 }
 .img_1{
     background-image: url(../images/pic1.png);
@@ -124,7 +124,7 @@
     animation-direction: alternate;
     text-align: center;
     font-weight: 400;
-     animation:none;
+    animation: none;
 
 }
 .s_text h1{
