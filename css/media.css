@@ -1,0 +1,139 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+     /* ========================= */
+     /* Menu Section Start here */
+     /* ========================= */
+     /* logo */
+     .navbar-brand{left: 38%;}
+
+     /* Slider Section Start here */
+     .slider{
+         margin-top:-19.3%;
+     }
+    /* Slider Section Start here */
+    .slider_single_item{
+        animation: none;
+    }
+    .s_text{
+        top: 12%;
+    }
+    .s_text h1{
+        font-size:30px;
+        margin-bottom: 20px;
+    }
+    .s_text p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /* Secrch-box */
+    .search_box{
+        width: 90%;
+        bottom: 18%;
+        right: 5%;
+    }
+    .search_box input{
+        width: 100%;
+        padding: 8px 10px;
+        font-size: 16px;
+    }
+    .search_box i{
+        right: 3%;
+        bottom: 23%;
+    }
+    /* Carousel_Indicator */
+    .carousel-indicators{
+        bottom: 11%;
+        right: 2%;
+ }
+ /* Carousel label */
+ .carousel-item h5{
+     display: none;
+ }
+ /* Carousel Contro Button */
+ .carousel-control-next, .carousel-control-prev{
+     display:none;
+ }
+
+}
+/* Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) and (max-width: 767.98px) {
+     /* ========================= */
+     /* Menu Section Start here */
+     /* ========================= */
+     /* logo */
+     .navbar-brand{left: 44%;}
+
+     /* Slider Section Start here */
+     .slider{
+         margin-top:-8.1%;
+     }
+    /* Slider Section Start here */
+    .search_box{
+        width: 70%;
+        bottom: 10%;
+    }
+    /* Carousel_Indicator */
+    .carousel-indicators{
+        bottom: 3%;
+        right: 8%;
+ }
+ /* Carosel_control button  */
+.carousel-control-prev{
+    left: 83.2%;
+}
+ /* Carousel label */
+ .carousel-item h5{
+     display: none;
+ }
+  
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* ========================= */
+    /* Menu Section Start here */
+    /* ========================= */
+    /* logo */
+    .navbar-brand{left: 44%;}
+
+    /* Slider Section Start here */
+    .slider{
+        margin-top:-8.1%;
+    }
+   .search_box{
+       bottom: 10%;
+   }
+   /* Carousel_Indicator */
+   .carousel-indicators{
+       bottom: 3%;
+       right: 10%;
+}
+/* Carosel_control button  */
+.carousel-control-prev{
+    left: 83.2%;
+}
+/* Carousel label */
+.carousel-item h5{
+    display: none;
+}
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Slider Section Start here */
+    /* Carousel_Indicator */
+    .carousel-indicators{
+        display: none;
+    }
+}
+/* Extra Large devices ( Large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+/* Extra Extra large devices (Extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    /* Carosel_control button  */
+.carousel-control-prev{
+    left: 85.4%;
+}
+
+}
